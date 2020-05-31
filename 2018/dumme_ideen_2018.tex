@@ -1,0 +1,160 @@
+% Template inspired by Micheal Müller's Book Template:
+% https://www.overleaf.com/latex/templates/simple-a5-book-template/gkryymktcyzs
+
+\documentclass[a5paper,pagesize,10pt,bibtotoc,pointlessnumbers,normalheadings,DIV=9,twoside=false]{scrbook}
+
+\KOMAoptions{DIV=last}
+
+%\usepackage{trajan}
+\usepackage{tgpagella}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{fontspec}
+
+%\usepackage[babel,german=guillemets]{csquotes}
+
+%\usepackage[sc]{mathpazo}
+%\linespread{1.05} 
+
+\usepackage{verbatim}
+\usepackage{listings}
+
+\usepackage{titlesec}
+\usepackage{authblk}
+
+\usepackage{setspace}
+
+%\setmainfont{TeX Gyre Pagella}
+
+%\hyphenation{un-ver-packt}
+
+%\setlength{\parindent}{10pt}
+%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
+%\setlength{\parskip}{1.4ex plus 0.35ex minus 0.3ex}
+
+\title{Dumme Ideen 2018}   
+\author{Andreas Schmid} 
+\date{\today} 
+
+\begin{document}
+
+% Title page
+
+\maketitle
+
+% Inspirational quote thingy
+\newpage{}
+\thispagestyle {empty}
+
+\vspace*{2cm}
+
+\begin{center}
+	\Large{\parbox{10cm}{
+		\begin{raggedright}
+		{\Large 
+			\textit{Wenn d'Wurscht so dick wei s'Broud is
+            is's Wurscht wei dick dass's Broud is.}
+		}
+	
+		\vspace{.5cm}\hfill{---Volksweisheit}
+		\end{raggedright}
+	}
+}
+\end{center}
+
+\newpage
+
+% toc
+
+\singlespacing
+\tableofcontents 
+
+% Content!
+\onehalfspacing
+
+%\chapter{Rotes Telephon zwischen FIL und TechBase}
+%\chapter{real live 3rd person steuerung (drohne + vr-brille)}
+%\chapter{tag-basierter musikrecommender}
+\chapter{Kochsendung mit Werkzeug}
+
+Man kennt sie, man liebt sie - Kochsendungen im Fernsehen oder im Internet.
+Doch effektiv ist es doch immer das gleiche:
+Ein leicht adipöser Herr mittleren Alters steht in einer viel zu gut ausgestatteten Küche, alle Zutaten sind in einer eigenen Schüssel, sodass man sich fragt, wer das ganze Zeug am Ende abspült und es wird zum hundertsten Mal irgend ein Bratensatz mit Rotwein abgelöscht, bevor wie von Zauberhand das bereits vorbereitete, fertige Gericht aus dem Ofen geholt wird.
+Und auf keinen Fall das Lorbeerblatt vergessen!
+
+Eine junge, von Killerspielen und Avengers-Filmen geprägte Zielgruppe spricht dieses Format wohl kaum an - was fehlt sind Action, Explosionen und Gefahr.
+Deshalb die Idee: Warum nicht eine klassische Kochsendung etwas spannender gestalten, indem statt Kochmesser und Pürierstab Kreissäge und Bohrmaschine zum Einsatz kommen?
+Dazu noch ein harter Heavy Metal-Sound"-track und ein tätowierter Moderator, der ständig rumschreit und fertig ist die Kochsendung für die nächste Generation!
+
+\chapter{Kochsendung mit Campingkocher}
+
+Die Kochsendung mit Campingkocher stellt ein krasses Gegenstück zur letzten Idee dar.
+Ein minimalistischer und auf das Nötigste beschränkter Lebensstil ist für die nachhaltige Hipster-Ge"-ne"-ra"-tion so wichtig wie der Fahrradparkplatz vor dem Un"-ver"-packt-Laden.
+Eine kleine Japanerin zeigt uns, auf was wir eigentlich alles verzichten können, um ein glückliches Leben frei von Konsum und Kapitalismus zu führen.
+Außerdem passt dann unser ganzes Zeug auch gut in den Dakine-Rucksack für den nächsten inspirierenden Trip nach Bali.
+
+Da beim Backpacken das Kochen natürlich zu einer etwas größeren Herausforderung wird und wir uns nicht sicher sind, wie lange die gebratenen Nudeln beim Streetfood-Stand dieser älteren Dame nun wirklich schon im Wok vor sich hin brodeln, sind wir oft auf den Campingkocher angewiesen.
+Dosenravioli sind natürlich auch nicht das wahre (Weißblech! Pfui!), deshalb brauchen wir eine Kochsendung, die nur mit dem Nötigsten auskommt:
+Ein Campingkocher, ein Messer und alles, was uns Mutter Natur so bietet.
+Damit wir auch auf Reisen nicht auf Nudeln mit Pesto verzichten müssen.
+Amazing!
+
+%\chapter{1. April: Besen anzünden}
+%\chapter{Tutorialvideo: Besen bauen}
+%\chapter{Wetteinsatz: Mit dem Radl aufs Summerbreeze fahren}
+%\chapter{komplettes videospiel als QR-code}
+%\chapter{Kalender mit falsch zugeordneten Zitaten}
+%\chapter{Fotos von allen Kontakten am Handy}
+%\chapter{Fensterln}
+%\chapter{"romanum eunt domus"}
+%\chapter{Kopierschutzmuster tätowieren lassen}
+%\chapter{Brief}
+%\chapter{mobiler Gockerlbrater}
+%\chapter{©Andi: Höhlenpiraten}
+%\chapter{Mit Fisch gassigehen}
+%\chapter{©Flo: Jesus-Serie}
+%\chapter{Reusable Scientific Poster}
+%\chapter{Gegensprechanlage im Labor}
+%\chapter{Liste mit Sprachnachrichtakandidaten}
+%\chapter{terminkalender für soziale kontakte}
+%\chapter{biologischer geschirrspüler}
+%\chapter{noreply emailaccount}
+%\chapter{bikeathlon}
+%\chapter{slow messenger}
+%\chapter{DateRate}
+%\chapter{SocialPhone}
+%\chapter{Drucker mit HDMI-Anschluss}
+%\chapter{Dynamisches Gesellschaftsspiel}
+%\chapter{paper tätowieren}
+%\chapter{reviews/tutorials für viel zu spezifische sachen}
+%\chapter{animal heatmap}
+%\chapter{meme-explainer}
+%\chapter{multimedia notizapp}
+%\chapter{schreibmaschinengeräusche reverse engineeren}
+%\chapter{demokratische realityshow}
+%\chapter{dienstleister für ideenumsetzung}
+%\chapter{abstrakte thumbnails}
+%\chapter{songs am youtube thumbnail erraten}
+%\chapter{schreibmaschine als drucker}
+%\chapter{remote dating}
+%\chapter{AR-Pinguine}
+%\chapter{©RW: real life healthbar}
+%\chapter{weitwinkelbrille}
+%\chapter{vr reverse schaukelpferd}
+%\chapter{real life inventory}
+%\chapter{reverse engineering von straßen anhand eines rally-notizblocks}
+%\chapter{stereoskopisches bewerbungsfoto}
+%\chapter{erschwertes interview}
+%\chapter{custom fake tattoo}
+%\chapter{strg mit fuß drücken}
+%\chapter{perkussion durch tanzbewegungen}
+%\chapter{bias bei korrektur evaluieren}
+%\chapter{air drumming synthesizer}
+%\chapter{tierdokus über tiere, die gerade aus der narkose aufgewacht sind}
+%\chapter{betrunkene rezitieren märchen}
+%\chapter{icons mit machine learning aus skizzen generieren}
+%\chapter{dynamisches gesellschaftsspiel}
+
+
+\end{document}
