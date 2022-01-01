@@ -87,3 +87,12 @@
  * HCI-Evaluationstechniken für Papierformularr
  * Aprilscherz: Wohnung von jemand anders inserieren
  * Pointing auf Display mit Laser
+ * Corona-Warnapp um andere Krankheiten erweitern
+ * Schuhbeck-Tee
+ * Jumpscare-Warner
+ * Kontextsuche in der Bib
+ * Studie: funktioniert der Producer Switch?
+ * Dozenten-Tierlist
+ * Drachenfigur-Feuerzeug
+ * neo-noir-Kasperltheater
+ * "Merge-Links" 1 Symlink auf mehrere Ordner
